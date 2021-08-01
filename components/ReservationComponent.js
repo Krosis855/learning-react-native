@@ -37,6 +37,7 @@ class Reservation extends Component {
     console.log(JSON.stringify(this.state));
     this.toggleModal();
   }
+  
   resetForm() {
     this.setState({
       campers: 1,
